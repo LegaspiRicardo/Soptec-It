@@ -1,0 +1,236 @@
+*{
+  color: green;
+  margin: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-decoration: none;
+}
+
+/*//////////////Header/////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+header{
+  height:100px ;
+  background-color: #222831;
+  position: sticky;
+  top: 0;
+}
+
+.LogoTitulo{
+  display: inline-block;
+  width: 55%;
+  height: 90%;
+}
+
+.ImgHeader{
+  width: 70px;
+  height:60px;
+  position: relative;
+  top: 20%;
+  left: 3%;
+}
+
+h1{
+  display: inline-block;
+  width: 65%;
+  top: 10%;
+  text-align: center;
+  position: relative;
+  background-color: transparent;
+  color: #F5F2E7;
+}
+
+.Navegacion{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  display: inline-block;
+  width: 40%;
+  margin: 3% 2% 0% 2%;
+  text-align: right;
+  background-color: #222831;
+  color: #F5F2E7;
+}
+
+li{
+  display: inline-block;
+  width: 20%;
+  font-size: 80%;
+  text-align: center;
+  
+}
+
+/*//////////Video/////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.Video{
+  position: absolute;
+  height: 50%;
+  z-index: -1;
+}
+
+
+.SeccionTextoVideo{
+  width: 40%;
+  
+  background-color: #22283180;
+}
+
+.textoVideo{
+  text-align: center;
+  width: 50%;
+  padding-bottom: 50%;
+  padding-left: 22%;
+}
+
+
+
+/*//////////Barra Relacion 1/////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+h2{
+    font-size:200%;
+    color: #222831;
+    width: 100%;
+    height: 20%;
+    background-color: #F5F2E7;
+    text-align: center;
+    padding-top:7%;
+    padding-bottom:6%;
+}
+
+
+/*////////// Seccion 3 imagenes /////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.ContenedorImagenes3{
+  background-color: #30475E;
+  height: 60%;
+  width: 100%;
+  
+}
+
+.Imagen_Texto{
+  width: 33%;
+  height: max-content;
+  display: inline-block;
+  
+}
+
+.Imagenes3{
+  width: 100%;
+ background-color: #30475E;
+}
+
+
+.ContenedorTxtImagen {
+  
+  
+  margin-left: 10%;
+  margin-bottom: 10%;
+  margin-top: 5%;
+  font-size: 16px;
+  width: 80%;
+  text-align: justify;
+}
+
+.TextoDentroImagenes{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+  line-height: 1.5; 
+}
+
+
+h4{
+  font-size:x-large;
+  
+  text-align: center;
+}
+
+
+/*//////////Seccion 50 texto 50 imagen/////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+.Imagen_Texto50{
+  width: 100%;
+}
+
+.Imagen50{
+  width: 45%;
+  margin: 2%;
+  border-radius: 5%;
+  }
+  
+  .ContenedorTexto50{
+  width: 30%;  
+  margin-left: 58%;
+  margin-top: -22%;
+  padding-bottom: 8%;
+  }
+
+  h5{
+    text-align: center;
+    padding-bottom: 8%;
+    font-size:2vw;
+    color: #F5F2E7;
+  }
+
+  h3{
+    text-align: center;
+    padding-top: 45%;
+    padding-bottom: 8%;
+    font-size:3vw;
+    }
+  
+   .Texto50{
+    text-align: justify;
+    width: 80%;
+    padding-left: 10%;
+    color: #F5F2E7;
+    line-height: 1.8;
+  } 
+
+
+
+
+/*//////////Proyectos/////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+
+  .BarraProyectos{
+    width: 100%;
+    height: 400px;
+    background-color: #F5F2E7;
+    height: 450px;
+  }
+  
+  .TextoProyectos{
+    width: 90%;
+    margin-left: 5%; 
+    text-align: center;
+    background-color: transparent;
+  }
+
+  h6{
+    text-align: center;
+    padding-bottom: 5%;
+    font-size:2vw;
+    color: #30475E;
+  }
+  
+  .TituloCertificaciones{
+    display: inline-block;
+    margin-top: 7%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    background-color: transparent;
+  }
+
+  .lista_certificaciones{
+    width: 100%;
+  }
+
+  .logos{
+    width: 50%;
+  }
+
+/*//////////Footer/////////////////////////////////////////////////////////////////////////////////////////////// */
+
+ footer{
+   height: 120px;
+   background-color: #3e5872;
+ }

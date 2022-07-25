@@ -1,0 +1,6 @@
+Paleta de colores
+
+#2C3333
+#395B64
+#2666CF
+#F5F2E7
